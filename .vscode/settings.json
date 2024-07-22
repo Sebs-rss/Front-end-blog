@@ -1,0 +1,4 @@
+{
+    "css.lint.duplicateProperties": "error",
+    "css.lint.float": "warning"
+}

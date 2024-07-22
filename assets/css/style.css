@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-weight
+● Poppins Regular (400)
+● Poppins Medium (500)
+● Poppins Bold (700)*/
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*.divider {
+    padding-bottom: 27px;
+}*/
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 2% 10% 2% 10%;
+}
+
+.header_logo--img {
+    width: 55px;
+    border-radius: 10px;
+}
+
+.header_title--txt {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+/*Main*/ 
+
+.main {
+    padding: 2% 10% 2% 10%;
+}
+
+/*.main_highlight {
+    
+}*/
+
+.header_title--txt {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.main_highlight--img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+
+
+/*Popular y categorías*/
+
+.popular-and-categories {
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/*.popular-and-categories_title {
+    display:inline-block;
+}*/
+
+/*cards*/
+.popular-cards {
+    display: grid;
+    flex-direction: column;
+
+    /*flex-wrap: wrap*/
+}
+
+.card-post {
+    display: flex;
+    width: 300px;
+    padding: 8px;
+    flex-direction: column;
+    margin-right: 16px;
+    margin-bottom: 32px;
+
+}
+
+.card-post_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.card-post_info {
+    margin: 20px 0 6px 0;
+    width: 298px;
+}
+
+.card-post_date {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.card-post_title {
+    font-weight: 700;
+    font-size: 20px;
+    width: 298px;
+    margin-bottom: 8px;
+}
+
+.card-post_user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-post_user--round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/*Categorías*/
+/*lista de stack tecnológico e ítems*/
+
+.categores-list {
+    display: flex;
+    flex-direction: column;
+    /*espacio entre ítems?*/
+    justify-content: space-evenly;
+}
+
+/*Ítems de la lista*/
+.list-item_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 298px;
+    margin-bottom: 20px;
+}
+
+/*Variaciones de color*/
+.list-item_box--html {
+    background-color: rgba(233, 62, 48, 1);
+}
+
+.list-item_box--js {
+    background-color: rgba(247, 224, 24, 1);
+}
+
+.list-item_box--css {
+    background-color: rgba(41, 158, 213, 1);
+}
+
+.list-item_box--react {
+    background-color: rgba(41, 44, 51, 1);
+}
+
+.list-item_box--vue {
+    background-color: rgba(103, 199, 112, 1);
+}
+
+.list-item_box--boots {
+    background-color: rgba(86, 61, 124, 1);
+}
+
+/*Imágenes de ítems*/
+.list-item_img {
+    width: 85px;
+    padding-left: 8px;
+}
+
+/*Variación de imgs que son muy grandes o difieren de las demás*/
+.list-item_img--vue {
+    height: 70px;
+    padding-left: 8px;
+}
+
+.list-item_img--css {
+    height: 70px;
+    padding-left: 8px;
+}
+
+.list-item_img--react {
+    height: 70px;
+    padding-left: 0px;
+}
+
+.list-item_img--bs {
+    height: 70px;
+    padding-left: 8px;
+}
+
+.list-item_title {
+    font-weight: 700;
+    font-size: 32px;
+    padding-right: 12px;
+    color: white;
+} 
+
+.list-item_title--dark {
+    color: rgba(41, 44, 51, 1);
+    font-weight: 700;
+    font-size: 32px;
+    padding-right: 12px;
+}
+
+.list-item_link {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10% 2% 10%;
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo_img {
+    width: 55px;
+    border-radius: 10px;
+}
+
+.footer-logo_txt {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.footer_rights {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+}
